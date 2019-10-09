@@ -1,0 +1,186 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="org.nativescript.studyLogin"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="17"
+8-->/home/ismaelc/Documents/estudos/nativescript/angular/studyLogin/platforms/android/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="28" />
+9-->/home/ismaelc/Documents/estudos/nativescript/angular/studyLogin/platforms/android/app/src/main/AndroidManifest.xml
+10
+11    <supports-screens
+11-->/home/ismaelc/Documents/estudos/nativescript/angular/studyLogin/platforms/android/app/src/main/AndroidManifest.xml:7:2-11:33
+12        android:largeScreens="true"
+12-->/home/ismaelc/Documents/estudos/nativescript/angular/studyLogin/platforms/android/app/src/main/AndroidManifest.xml:10:3-30
+13        android:normalScreens="true"
+13-->/home/ismaelc/Documents/estudos/nativescript/angular/studyLogin/platforms/android/app/src/main/AndroidManifest.xml:9:3-31
+14        android:smallScreens="true"
+14-->/home/ismaelc/Documents/estudos/nativescript/angular/studyLogin/platforms/android/app/src/main/AndroidManifest.xml:8:3-30
+15        android:xlargeScreens="true" />
+15-->/home/ismaelc/Documents/estudos/nativescript/angular/studyLogin/platforms/android/app/src/main/AndroidManifest.xml:11:3-31
+16
+17    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+17-->/home/ismaelc/Documents/estudos/nativescript/angular/studyLogin/platforms/android/app/src/main/AndroidManifest.xml:13:2-76
+17-->/home/ismaelc/Documents/estudos/nativescript/angular/studyLogin/platforms/android/app/src/main/AndroidManifest.xml:13:19-74
+18    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+18-->/home/ismaelc/Documents/estudos/nativescript/angular/studyLogin/platforms/android/app/src/main/AndroidManifest.xml:14:2-77
+18-->/home/ismaelc/Documents/estudos/nativescript/angular/studyLogin/platforms/android/app/src/main/AndroidManifest.xml:14:19-75
+19    <uses-permission android:name="android.permission.INTERNET" />
+19-->/home/ismaelc/Documents/estudos/nativescript/angular/studyLogin/platforms/android/app/src/main/AndroidManifest.xml:15:2-63
+19-->/home/ismaelc/Documents/estudos/nativescript/angular/studyLogin/platforms/android/app/src/main/AndroidManifest.xml:15:19-61
+20    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+20-->[com.mapbox.mapboxsdk:mapbox-android-services:2.2.10] /home/ismaelc/.gradle/caches/transforms-2/files-2.1/ecc17525225ec5a579ea4e5aabc4005a/jetified-mapbox-android-services-2.2.10/AndroidManifest.xml:11:5-79
+20-->[com.mapbox.mapboxsdk:mapbox-android-services:2.2.10] /home/ismaelc/.gradle/caches/transforms-2/files-2.1/ecc17525225ec5a579ea4e5aabc4005a/jetified-mapbox-android-services-2.2.10/AndroidManifest.xml:11:22-76
+21
+22    <uses-feature
+22-->[com.mapbox.mapboxsdk:mapbox-android-sdk:6.5.0] /home/ismaelc/.gradle/caches/transforms-2/files-2.1/551df3488bd008c98bace46dad1253c1/jetified-mapbox-android-sdk-6.5.0/AndroidManifest.xml:9:5-11:35
+23        android:glEsVersion="0x00020000"
+23-->[com.mapbox.mapboxsdk:mapbox-android-sdk:6.5.0] /home/ismaelc/.gradle/caches/transforms-2/files-2.1/551df3488bd008c98bace46dad1253c1/jetified-mapbox-android-sdk-6.5.0/AndroidManifest.xml:10:9-41
+24        android:required="true" />
+24-->[com.mapbox.mapboxsdk:mapbox-android-sdk:6.5.0] /home/ismaelc/.gradle/caches/transforms-2/files-2.1/551df3488bd008c98bace46dad1253c1/jetified-mapbox-android-sdk-6.5.0/AndroidManifest.xml:11:9-32
+25    <uses-feature
+25-->[com.mapbox.mapboxsdk:mapbox-android-sdk:6.5.0] /home/ismaelc/.gradle/caches/transforms-2/files-2.1/551df3488bd008c98bace46dad1253c1/jetified-mapbox-android-sdk-6.5.0/AndroidManifest.xml:12:5-14:36
+26        android:name="android.hardware.wifi"
+26-->[com.mapbox.mapboxsdk:mapbox-android-sdk:6.5.0] /home/ismaelc/.gradle/caches/transforms-2/files-2.1/551df3488bd008c98bace46dad1253c1/jetified-mapbox-android-sdk-6.5.0/AndroidManifest.xml:13:9-45
+27        android:required="true" />
+27-->[com.mapbox.mapboxsdk:mapbox-android-sdk:6.5.0] /home/ismaelc/.gradle/caches/transforms-2/files-2.1/551df3488bd008c98bace46dad1253c1/jetified-mapbox-android-sdk-6.5.0/AndroidManifest.xml:14:9-33
+28
+29    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+29-->[com.mapbox.mapboxsdk:mapbox-android-sdk:6.5.0] /home/ismaelc/.gradle/caches/transforms-2/files-2.1/551df3488bd008c98bace46dad1253c1/jetified-mapbox-android-sdk-6.5.0/AndroidManifest.xml:17:5-79
+29-->[com.mapbox.mapboxsdk:mapbox-android-sdk:6.5.0] /home/ismaelc/.gradle/caches/transforms-2/files-2.1/551df3488bd008c98bace46dad1253c1/jetified-mapbox-android-sdk-6.5.0/AndroidManifest.xml:17:22-76
+30    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+30-->[com.mapbox.mapboxsdk:mapbox-android-sdk:6.5.0] /home/ismaelc/.gradle/caches/transforms-2/files-2.1/551df3488bd008c98bace46dad1253c1/jetified-mapbox-android-sdk-6.5.0/AndroidManifest.xml:18:5-76
+30-->[com.mapbox.mapboxsdk:mapbox-android-sdk:6.5.0] /home/ismaelc/.gradle/caches/transforms-2/files-2.1/551df3488bd008c98bace46dad1253c1/jetified-mapbox-android-sdk-6.5.0/AndroidManifest.xml:18:22-73
+31
+32    <uses-feature
+32-->[com.mapzen.android:lost:3.0.4] /home/ismaelc/.gradle/caches/transforms-2/files-2.1/8db2164d5eba474dd34d13fcfe0d0b90/jetified-lost-3.0.4/AndroidManifest.xml:9:5-11:36
+33        android:name="android.hardware.sensor.accelerometer"
+33-->[com.mapzen.android:lost:3.0.4] /home/ismaelc/.gradle/caches/transforms-2/files-2.1/8db2164d5eba474dd34d13fcfe0d0b90/jetified-lost-3.0.4/AndroidManifest.xml:10:9-61
+34        android:required="false" />
+34-->[com.mapzen.android:lost:3.0.4] /home/ismaelc/.gradle/caches/transforms-2/files-2.1/8db2164d5eba474dd34d13fcfe0d0b90/jetified-lost-3.0.4/AndroidManifest.xml:11:9-33
+35    <uses-feature android:name="android.hardware.location" />
+35-->[com.mapzen.android:lost:3.0.4] /home/ismaelc/.gradle/caches/transforms-2/files-2.1/8db2164d5eba474dd34d13fcfe0d0b90/jetified-lost-3.0.4/AndroidManifest.xml:12:5-62
+35-->[com.mapzen.android:lost:3.0.4] /home/ismaelc/.gradle/caches/transforms-2/files-2.1/8db2164d5eba474dd34d13fcfe0d0b90/jetified-lost-3.0.4/AndroidManifest.xml:12:19-59
+36    <uses-feature
+36-->[com.mapzen.android:lost:3.0.4] /home/ismaelc/.gradle/caches/transforms-2/files-2.1/8db2164d5eba474dd34d13fcfe0d0b90/jetified-lost-3.0.4/AndroidManifest.xml:13:5-15:36
+37        android:name="android.hardware.location.gps"
+37-->[com.mapzen.android:lost:3.0.4] /home/ismaelc/.gradle/caches/transforms-2/files-2.1/8db2164d5eba474dd34d13fcfe0d0b90/jetified-lost-3.0.4/AndroidManifest.xml:14:9-53
+38        android:required="false" />
+38-->[com.mapzen.android:lost:3.0.4] /home/ismaelc/.gradle/caches/transforms-2/files-2.1/8db2164d5eba474dd34d13fcfe0d0b90/jetified-lost-3.0.4/AndroidManifest.xml:15:9-33
+39    <uses-feature
+39-->[com.mapzen.android:lost:3.0.4] /home/ismaelc/.gradle/caches/transforms-2/files-2.1/8db2164d5eba474dd34d13fcfe0d0b90/jetified-lost-3.0.4/AndroidManifest.xml:16:5-18:36
+40        android:name="android.hardware.telephony"
+40-->[com.mapzen.android:lost:3.0.4] /home/ismaelc/.gradle/caches/transforms-2/files-2.1/8db2164d5eba474dd34d13fcfe0d0b90/jetified-lost-3.0.4/AndroidManifest.xml:17:9-50
+41        android:required="false" />
+41-->[com.mapzen.android:lost:3.0.4] /home/ismaelc/.gradle/caches/transforms-2/files-2.1/8db2164d5eba474dd34d13fcfe0d0b90/jetified-lost-3.0.4/AndroidManifest.xml:18:9-33
+42
+43    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+43-->[:nativescript_mapbox:] /home/ismaelc/.gradle/caches/transforms-2/files-2.1/4c473258669f7d336c402eea4d192543/nativescript_mapbox/AndroidManifest.xml:9:5-81
+43-->[:nativescript_mapbox:] /home/ismaelc/.gradle/caches/transforms-2/files-2.1/4c473258669f7d336c402eea4d192543/nativescript_mapbox/AndroidManifest.xml:9:22-78
+44
+45    <application
+45-->/home/ismaelc/Documents/estudos/nativescript/angular/studyLogin/platforms/android/app/src/main/AndroidManifest.xml:17:2-38:16
+46        android:name="com.tns.NativeScriptApplication"
+46-->/home/ismaelc/Documents/estudos/nativescript/angular/studyLogin/platforms/android/app/src/main/AndroidManifest.xml:18:3-49
+47        android:allowBackup="true"
+47-->/home/ismaelc/Documents/estudos/nativescript/angular/studyLogin/platforms/android/app/src/main/AndroidManifest.xml:19:3-29
+48        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+48-->[androidx.core:core:1.0.1] /home/ismaelc/.gradle/caches/transforms-2/files-2.1/0ce66f28f15d428e7cb22ee7b459b6ef/core-1.0.1/AndroidManifest.xml:22:18-86
+49        android:debuggable="true"
+50        android:icon="@drawable/icon"
+50-->/home/ismaelc/Documents/estudos/nativescript/angular/studyLogin/platforms/android/app/src/main/AndroidManifest.xml:20:3-32
+51        android:label="@string/app_name"
+51-->/home/ismaelc/Documents/estudos/nativescript/angular/studyLogin/platforms/android/app/src/main/AndroidManifest.xml:21:3-35
+52        android:theme="@style/AppTheme" >
+52-->/home/ismaelc/Documents/estudos/nativescript/angular/studyLogin/platforms/android/app/src/main/AndroidManifest.xml:22:3-34
+53        <activity
+53-->/home/ismaelc/Documents/estudos/nativescript/angular/studyLogin/platforms/android/app/src/main/AndroidManifest.xml:24:3-36:14
+54            android:name="com.tns.NativeScriptActivity"
+54-->/home/ismaelc/Documents/estudos/nativescript/angular/studyLogin/platforms/android/app/src/main/AndroidManifest.xml:25:4-47
+55            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|smallestScreenSize|screenLayout|locale|uiMode"
+55-->/home/ismaelc/Documents/estudos/nativescript/angular/studyLogin/platforms/android/app/src/main/AndroidManifest.xml:27:4-120
+56            android:label="@string/title_activity_kimera"
+56-->/home/ismaelc/Documents/estudos/nativescript/angular/studyLogin/platforms/android/app/src/main/AndroidManifest.xml:26:4-49
+57            android:theme="@style/LaunchScreenTheme" >
+57-->/home/ismaelc/Documents/estudos/nativescript/angular/studyLogin/platforms/android/app/src/main/AndroidManifest.xml:28:4-44
+58            <meta-data
+58-->/home/ismaelc/Documents/estudos/nativescript/angular/studyLogin/platforms/android/app/src/main/AndroidManifest.xml:30:4-87
+59                android:name="SET_THEME_ON_LAUNCH"
+59-->/home/ismaelc/Documents/estudos/nativescript/angular/studyLogin/platforms/android/app/src/main/AndroidManifest.xml:30:15-49
+60                android:resource="@style/AppTheme" />
+60-->/home/ismaelc/Documents/estudos/nativescript/angular/studyLogin/platforms/android/app/src/main/AndroidManifest.xml:30:50-84
+61
+62            <intent-filter>
+62-->/home/ismaelc/Documents/estudos/nativescript/angular/studyLogin/platforms/android/app/src/main/AndroidManifest.xml:32:4-35:20
+63                <action android:name="android.intent.action.MAIN" />
+63-->/home/ismaelc/Documents/estudos/nativescript/angular/studyLogin/platforms/android/app/src/main/AndroidManifest.xml:33:5-57
+63-->/home/ismaelc/Documents/estudos/nativescript/angular/studyLogin/platforms/android/app/src/main/AndroidManifest.xml:33:13-54
+64
+65                <category android:name="android.intent.category.LAUNCHER" />
+65-->/home/ismaelc/Documents/estudos/nativescript/angular/studyLogin/platforms/android/app/src/main/AndroidManifest.xml:34:5-65
+65-->/home/ismaelc/Documents/estudos/nativescript/angular/studyLogin/platforms/android/app/src/main/AndroidManifest.xml:34:15-62
+66            </intent-filter>
+67        </activity>
+68        <activity android:name="com.tns.ErrorReportActivity" />
+68-->/home/ismaelc/Documents/estudos/nativescript/angular/studyLogin/platforms/android/app/src/main/AndroidManifest.xml:37:3-57
+68-->/home/ismaelc/Documents/estudos/nativescript/angular/studyLogin/platforms/android/app/src/main/AndroidManifest.xml:37:13-55
+69
+70        <service android:name="com.mapbox.android.telemetry.TelemetryService" />
+70-->[com.mapbox.mapboxsdk:mapbox-android-telemetry:3.1.5] /home/ismaelc/.gradle/caches/transforms-2/files-2.1/ef7075bf067fd91453c52f9273c94367/jetified-mapbox-android-telemetry-3.1.5/AndroidManifest.xml:16:9-81
+70-->[com.mapbox.mapboxsdk:mapbox-android-telemetry:3.1.5] /home/ismaelc/.gradle/caches/transforms-2/files-2.1/ef7075bf067fd91453c52f9273c94367/jetified-mapbox-android-telemetry-3.1.5/AndroidManifest.xml:16:18-78
+71
+72        <activity
+72-->[com.google.android.gms:play-services-base:11.4.0] /home/ismaelc/.gradle/caches/transforms-2/files-2.1/7cb0c8e8bca957dedfe8a2b103039d13/jetified-play-services-base-11.4.0/AndroidManifest.xml:19:9-172
+73            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+73-->[com.google.android.gms:play-services-base:11.4.0] /home/ismaelc/.gradle/caches/transforms-2/files-2.1/7cb0c8e8bca957dedfe8a2b103039d13/jetified-play-services-base-11.4.0/AndroidManifest.xml:19:19-85
+74            android:exported="false"
+74-->[com.google.android.gms:play-services-base:11.4.0] /home/ismaelc/.gradle/caches/transforms-2/files-2.1/7cb0c8e8bca957dedfe8a2b103039d13/jetified-play-services-base-11.4.0/AndroidManifest.xml:19:146-170
+75            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+75-->[com.google.android.gms:play-services-base:11.4.0] /home/ismaelc/.gradle/caches/transforms-2/files-2.1/7cb0c8e8bca957dedfe8a2b103039d13/jetified-play-services-base-11.4.0/AndroidManifest.xml:19:86-145
+76
+77        <meta-data
+77-->[com.google.android.gms:play-services-basement:11.4.0] /home/ismaelc/.gradle/caches/transforms-2/files-2.1/6ca070a75ceb90efd75e4174a9cfba97/jetified-play-services-basement-11.4.0/AndroidManifest.xml:20:9-121
+78            android:name="com.google.android.gms.version"
+78-->[com.google.android.gms:play-services-basement:11.4.0] /home/ismaelc/.gradle/caches/transforms-2/files-2.1/6ca070a75ceb90efd75e4174a9cfba97/jetified-play-services-basement-11.4.0/AndroidManifest.xml:20:20-65
+79            android:value="@integer/google_play_services_version" />
+79-->[com.google.android.gms:play-services-basement:11.4.0] /home/ismaelc/.gradle/caches/transforms-2/files-2.1/6ca070a75ceb90efd75e4174a9cfba97/jetified-play-services-basement-11.4.0/AndroidManifest.xml:20:66-119
+80
+81        <service
+81-->[com.mapzen.android:lost:3.0.4] /home/ismaelc/.gradle/caches/transforms-2/files-2.1/8db2164d5eba474dd34d13fcfe0d0b90/jetified-lost-3.0.4/AndroidManifest.xml:22:9-24:39
+82            android:name="com.mapzen.android.lost.internal.FusedLocationProviderService"
+82-->[com.mapzen.android:lost:3.0.4] /home/ismaelc/.gradle/caches/transforms-2/files-2.1/8db2164d5eba474dd34d13fcfe0d0b90/jetified-lost-3.0.4/AndroidManifest.xml:23:13-89
+83            android:process=":lost" />
+83-->[com.mapzen.android:lost:3.0.4] /home/ismaelc/.gradle/caches/transforms-2/files-2.1/8db2164d5eba474dd34d13fcfe0d0b90/jetified-lost-3.0.4/AndroidManifest.xml:24:13-36
+84        <service android:name="com.mapzen.android.lost.internal.GeofencingIntentService" >
+84-->[com.mapzen.android:lost:3.0.4] /home/ismaelc/.gradle/caches/transforms-2/files-2.1/8db2164d5eba474dd34d13fcfe0d0b90/jetified-lost-3.0.4/AndroidManifest.xml:25:9-29:19
+84-->[com.mapzen.android:lost:3.0.4] /home/ismaelc/.gradle/caches/transforms-2/files-2.1/8db2164d5eba474dd34d13fcfe0d0b90/jetified-lost-3.0.4/AndroidManifest.xml:25:18-89
+85            <intent-filter>
+85-->[com.mapzen.android:lost:3.0.4] /home/ismaelc/.gradle/caches/transforms-2/files-2.1/8db2164d5eba474dd34d13fcfe0d0b90/jetified-lost-3.0.4/AndroidManifest.xml:26:13-28:29
+86                <action android:name="com.mapzen.lost.action.ACTION_GEOFENCING_SERVICE" />
+86-->[com.mapzen.android:lost:3.0.4] /home/ismaelc/.gradle/caches/transforms-2/files-2.1/8db2164d5eba474dd34d13fcfe0d0b90/jetified-lost-3.0.4/AndroidManifest.xml:27:17-91
+86-->[com.mapzen.android:lost:3.0.4] /home/ismaelc/.gradle/caches/transforms-2/files-2.1/8db2164d5eba474dd34d13fcfe0d0b90/jetified-lost-3.0.4/AndroidManifest.xml:27:25-88
+87            </intent-filter>
+88        </service>
+89        <service android:name="com.mapzen.android.lost.internal.DwellIntentService" >
+89-->[com.mapzen.android:lost:3.0.4] /home/ismaelc/.gradle/caches/transforms-2/files-2.1/8db2164d5eba474dd34d13fcfe0d0b90/jetified-lost-3.0.4/AndroidManifest.xml:30:9-31:19
+89-->[com.mapzen.android:lost:3.0.4] /home/ismaelc/.gradle/caches/transforms-2/files-2.1/8db2164d5eba474dd34d13fcfe0d0b90/jetified-lost-3.0.4/AndroidManifest.xml:30:18-84
+90        </service>
+91        <service android:name="com.mapbox.services.android.telemetry.service.TelemetryService" />
+91-->[:nativescript_mapbox:] /home/ismaelc/.gradle/caches/transforms-2/files-2.1/4c473258669f7d336c402eea4d192543/nativescript_mapbox/AndroidManifest.xml:13:9-98
+91-->[:nativescript_mapbox:] /home/ismaelc/.gradle/caches/transforms-2/files-2.1/4c473258669f7d336c402eea4d192543/nativescript_mapbox/AndroidManifest.xml:13:18-95
+92
+93        <provider
+93-->[androidx.lifecycle:lifecycle-process:2.0.0] /home/ismaelc/.gradle/caches/transforms-2/files-2.1/84168e1e34e5f823f6208d54e31c73cc/lifecycle-process-2.0.0/AndroidManifest.xml:23:9-27:43
+94            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+94-->[androidx.lifecycle:lifecycle-process:2.0.0] /home/ismaelc/.gradle/caches/transforms-2/files-2.1/84168e1e34e5f823f6208d54e31c73cc/lifecycle-process-2.0.0/AndroidManifest.xml:24:13-79
+95            android:authorities="org.nativescript.studyLogin.lifecycle-process"
+95-->[androidx.lifecycle:lifecycle-process:2.0.0] /home/ismaelc/.gradle/caches/transforms-2/files-2.1/84168e1e34e5f823f6208d54e31c73cc/lifecycle-process-2.0.0/AndroidManifest.xml:25:13-69
+96            android:exported="false"
+96-->[androidx.lifecycle:lifecycle-process:2.0.0] /home/ismaelc/.gradle/caches/transforms-2/files-2.1/84168e1e34e5f823f6208d54e31c73cc/lifecycle-process-2.0.0/AndroidManifest.xml:26:13-37
+97            android:multiprocess="true" />
+97-->[androidx.lifecycle:lifecycle-process:2.0.0] /home/ismaelc/.gradle/caches/transforms-2/files-2.1/84168e1e34e5f823f6208d54e31c73cc/lifecycle-process-2.0.0/AndroidManifest.xml:27:13-40
+98    </application>
+99
+100</manifest>
