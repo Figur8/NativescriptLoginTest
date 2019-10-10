@@ -10,7 +10,7 @@
       <TextField hint="Password" secure="true"  class="input"></TextField>
     </StackLayout>
   
-    <Button text="Log In" [nsRouterLink]="['/teste']" pageTransition="slide" clearHistory="false" class="btn btn-primary"></Button>
+    <Button text="Log In" (tap)="openTestePage()" class="btn btn-primary"></Button>
     
   </StackLayout>
 </FlexboxLayout>
