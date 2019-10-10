@@ -1,5 +1,5 @@
 import { Component, OnInit } from "@angular/core";
-
+import { ModalDialogOptions, ModalDialogService } from "nativescript-angular/modal-dialog";
 import { ItemService } from "./item.service";
 import { Router } from "@angular/router";
 // import client from "~/app/lib/fusionAuthClientInstance";
