@@ -5,12 +5,12 @@
     <StackLayout class="input-field">
       <TextField hint="email" class="input" keyboardType="email" autocorrect="false" autocapitalizationType="none"></TextField>
     </StackLayout>
-  
+
     <StackLayout class="input-field">
       <TextField hint="Password" secure="true"  class="input"></TextField>
     </StackLayout>
-  
-    <Button text="Log In" [nsRouterLink]="['/teste']" pageTransition="slide" clearHistory="false" class="btn btn-primary"></Button>
-    
+
+    <Button text="Log In" (tap)="openTestePage()" class="btn btn-primary"></Button>
+
   </StackLayout>
 </FlexboxLayout>

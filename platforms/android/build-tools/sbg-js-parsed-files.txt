@@ -1,4 +1,0 @@
-/home/ismaelc/Documents/estudos/nativescript/angular/studyLogin/platforms/android/app/src/main/assets/app/tns-java-classes.js
-/home/ismaelc/Documents/estudos/nativescript/angular/studyLogin/platforms/android/app/src/main/assets/app/vendor.js
-/home/ismaelc/Documents/estudos/nativescript/angular/studyLogin/platforms/android/app/src/main/assets/app/runtime.js
-/home/ismaelc/Documents/estudos/nativescript/angular/studyLogin/platforms/android/app/src/main/assets/app/bundle.js

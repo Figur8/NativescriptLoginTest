@@ -3,7 +3,7 @@ import * as Geolocation from "nativescript-geolocation";
 
 @Component({templateUrl: 'teste.component.html'})
 export class testeComponent{
-    
+
     public latitude: number;
     public longitude: number;
     private watchId: number;
@@ -11,27 +11,6 @@ export class testeComponent{
     public constructor(private zone: NgZone) {
         this.latitude = 0;
         this.longitude = 0;
-    }
-
-    private getDeviceLocation(): Promise<any> {
-        return new Promise((resolve, reject) => {
-            Geolocation.enableLocationRequest().then(() => {
-                Geolocation.getCurrentLocation({timeout: 10000}).then(location => {
-                    resolve(location);
-                }).catch(error => {
-                    reject(error);
-                });
-            });
-        });
-    }
-
-    public updateLocation() {
-        this.getDeviceLocation().then(result => {
-            this.latitude = result.latitude;
-            this.longitude = result.longitude;
-        }, error => {
-            console.error(error);
-        });
     }
 
     public startWatchingLocation() {
@@ -45,13 +24,6 @@ export class testeComponent{
         }, error => {
             console.log(error);
         }, { updateDistance: 1, minimumUpdateTime: 1000 });
-    }
-
-    public stopWatchingLocation() {
-        if(this.watchId) {
-            Geolocation.clearWatch(this.watchId);
-            this.watchId = null;
-        }
     }
 
 }
