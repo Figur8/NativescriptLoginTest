@@ -1,11 +1,11 @@
 {
   "nativescript": {
     "id": "org.nativescript.studyLogin",
-    "tns-android": {
-      "version": "6.1.2"
-    },
     "tns-ios": {
       "version": "6.1.0"
+    },
+    "tns-android": {
+      "version": "6.1.2"
     }
   },
   "description": "NativeScript Application",

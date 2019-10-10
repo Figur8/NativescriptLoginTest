@@ -1,43 +1,62 @@
-import { Injectable } from "@angular/core";
-import { Item } from "./item";
+import {Component, OnInit, ViewContainerRef} from "@angular/core";
+import { ModalDialogOptions, ModalDialogService } from "nativescript-angular/modal-dialog";
+import { Router } from "@angular/router";
 // import client from "~/app/lib/fusionAuthClientInstance";
-// import {IdentityProviderLoginRequest, LoginRequest} from "@fusionauth/typescript-client";
+// import {LoginRequest} from "@fusionauth/typescript-client";
+import { testeComponent } from "../teste/teste.component";
 
-
-@Injectable({
-    providedIn: "root"
+@Component({
+    selector: "ns-items",
+    templateUrl: "./items.component.html",
+    styleUrls: ["./item.css"]
 })
-export class ItemService {
+export class ItemsComponent implements OnInit {
     // login = 'ismaelteste';
     // password = '123456789';
-    // private client = new DefaultRESTClientBuilder().build('http://192.168.217.250:9011');;
+    // request : LoginRequest = {
+    //     "loginId": this.login,
+    //     "password": this.password,
+    //     "applicationId": "fca4814f-645c-4c3f-a9b0-2b2ca7a2e835"
+    // };
 
-    constructor() {
-        // console.info(this.clientTeste());
+    constructor(private router: Router, private modalService: ModalDialogService, private vcRef: ViewContainerRef) {
+        // this.explanationPromise();
+        // console.info(this.clientLogin());
     }
 
-  //   request : LoginRequest = {
-  //       "loginId": this.login,
-  //       "password": this.password,
-  //       "applicationId": "fca4814f-645c-4c3f-a9b0-2b2ca7a2e835"
-  //   };
-  //
-  //   loginRequest(){
-  //     return client.login(this.request);
-  //   }
-  //
-  //   clientTeste() {
-  //       return this.loginRequest()
-  //         .then(this.handleResponse, this.handleErrorResponse);
-  //     }
-  //
-  //
-  // public handleResponse(clientResponse) {
-  //   console.info(JSON.stringify(clientResponse, null, 2));
-  // }
-  //
-  // public handleErrorResponse(clientResponse) {
-  //   console.error(JSON.stringify(clientResponse, null, 2));
-  // }
+    ngOnInit(): void {
+
+    }
+    public openTestePage(): void {
+        const options: ModalDialogOptions = {
+            fullscreen: true,
+            viewContainerRef: this.vcRef
+        };
+
+        this.modalService.showModal(testeComponent, options);
+    }
+    // explanationPromise() {
+    //     new Promise<number>((resolve) => {resolve(5)})
+    //         .then((num) => num *2)
+    //         .then((result) => 10/result)
+    //         .then((newVal) => newVal+5, err => 10)
+    //         .then(fim => console.log("fim: ",fim));
+    // }
+    //
+    // clientLogin() {
+    //     return client.login(this.request)
+    //       .then(this.handleResponse, this.handleErrorResponse);
+    // }
+
+
+    // public handleResponse(clientResponse) {
+    //   console.info(JSON.stringify(clientResponse, null, 2));
+    // }
+    //
+    // public handleErrorResponse(clientResponse) {
+    //   console.error(JSON.stringify(clientResponse, null, 2));
+    // }
+
+
 
 }

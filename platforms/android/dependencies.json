@@ -1,0 +1,50 @@
+[
+    {
+        "name": "nativescript-angular",
+        "directory": "../../node_modules/nativescript-angular"
+    },
+    {
+        "name": "nativescript-geolocation",
+        "directory": "../../node_modules/nativescript-geolocation"
+    },
+    {
+        "name": "nativescript-google-sdk",
+        "directory": "../../node_modules/nativescript-google-sdk"
+    },
+    {
+        "name": "nativescript-mapbox",
+        "directory": "../../node_modules/nativescript-mapbox"
+    },
+    {
+        "name": "nativescript-nodeify",
+        "directory": "../../node_modules/nativescript-nodeify"
+    },
+    {
+        "name": "nativescript-theme-core",
+        "directory": "../../node_modules/nativescript-theme-core"
+    },
+    {
+        "name": "tns-core-modules",
+        "directory": "../../node_modules/tns-core-modules"
+    },
+    {
+        "name": "nativescript-intl",
+        "directory": "../../node_modules/nativescript-intl"
+    },
+    {
+        "name": "nativescript-permissions",
+        "directory": "../../node_modules/nativescript-permissions"
+    },
+    {
+        "name": "nativescript-node",
+        "directory": "../../node_modules/nativescript-node"
+    },
+    {
+        "name": "nativescript-randombytes",
+        "directory": "../../node_modules/nativescript-randombytes"
+    },
+    {
+        "name": "tns-core-modules-widgets",
+        "directory": "../../node_modules/tns-core-modules-widgets"
+    }
+]

@@ -4,7 +4,6 @@ import { NativeScriptModule } from "nativescript-angular/nativescript.module";
 import { AppRoutingModule } from "./app-routing.module";
 import { AppComponent } from "./app.component";
 import { ItemsComponent } from "./item/items.component";
-import { ItemDetailComponent } from "./item/item-detail.component";
 import { testeComponent } from "./teste/teste.component";
 
 
@@ -25,7 +24,6 @@ import { testeComponent } from "./teste/teste.component";
     declarations: [
         AppComponent,
         ItemsComponent,
-        ItemDetailComponent,
         testeComponent
     ],
     providers: [],
