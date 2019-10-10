@@ -28,6 +28,15 @@ export class ItemsComponent implements OnInit {
     ngOnInit(): void {
 
     }
+    
+    public openTestePage(): void {
+        const options: ModalDialogOptions = {
+            fullscreen: true,
+            viewContainerRef: this.vcRef
+        };
+
+        this.modalService.showModal(testeComponent, options);
+    }
   //
   //   explanationPromise() {
   //       new Promise<number>((resolve) => {resolve(5)})
